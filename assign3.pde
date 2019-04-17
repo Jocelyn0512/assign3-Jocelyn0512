@@ -1,6 +1,6 @@
 final int GAME_START = 0, GAME_RUN = 1, GAME_OVER = 2;
 int gameState = 0;
-
+ 
 float soilSize = 80;
 float imgSize = 80;
 float grassHeight = 15;
