@@ -1,6 +1,6 @@
 final int GAME_START = 0, GAME_RUN = 1, GAME_OVER = 2;
 int gameState = 0;
- 
+
 float soilSize = 80;
 float imgSize = 80;
 float grassHeight = 15;
@@ -99,7 +99,7 @@ void draw() {
 
 		// Background
 		image(bg, 0, 0);
- 
+
 		// Sun
 	    stroke(255,255,0);
 	    strokeWeight(5);
@@ -254,7 +254,7 @@ void draw() {
          rightPressed=false;
          downPressed=false;
          hogX -= hogSpeed;
-         image(groundhogLeft, hogX, hogY);
+         image(groundhogLeft, hogX, 80);
          
        }    
         if(hogX <= 0){ 
@@ -275,7 +275,7 @@ void draw() {
          leftPressed=false;
          downPressed=false;
          hogX += hogSpeed;
-         image(groundhogRight, hogX, hogY);
+         image(groundhogRight, hogX, 80);
          
      }
         if(hogX + imgSize > width) {
