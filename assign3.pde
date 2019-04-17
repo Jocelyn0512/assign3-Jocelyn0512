@@ -99,7 +99,7 @@ void draw() {
 
 		// Background
 		image(bg, 0, 0);
-
+ 
 		// Sun
 	    stroke(255,255,0);
 	    strokeWeight(5);
